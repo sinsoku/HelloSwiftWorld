@@ -6,11 +6,28 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		DFA81BC71C451DB1002BA804 /* HelloSwiftWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSwiftWorld.swift; sourceTree = "<group>"; };
+		DFA81BC81C451E07002BA804 /* HelloSwiftWorld.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = HelloSwiftWorld.podspec; sourceTree = "<group>"; };
+		DFA81BC91C452048002BA804 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		DFA81BBE1C451B87002BA804 = {
 			isa = PBXGroup;
 			children = (
+				DFA81BC91C452048002BA804 /* LICENSE */,
+				DFA81BC81C451E07002BA804 /* HelloSwiftWorld.podspec */,
+				DFA81BC61C451C9D002BA804 /* Source */,
 			);
+			sourceTree = "<group>";
+		};
+		DFA81BC61C451C9D002BA804 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DFA81BC71C451DB1002BA804 /* HelloSwiftWorld.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
